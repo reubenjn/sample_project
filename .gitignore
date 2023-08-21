@@ -1,2 +1,21 @@
-env/
-complete/
+# env
+env
+
+# complete
+complete
+
+# DS_Store
+*.DS_Store
+
+# Jupyter checkpoints
+*.ipynb_checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model files
+*.pkl
+*.joblib
+
+# Misc (playground/large data file)
+data/bluebook_for_bulldozers/
+notebook-playground.ipynb
